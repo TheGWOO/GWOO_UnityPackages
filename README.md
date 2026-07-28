@@ -28,7 +28,7 @@ Support packages are installed automatically as dependencies when using a scoped
 If you do not want to configure OpenUPM and just want every public tool, install the all-in-one package from Unity Package Manager > Add package from git URL:
 
 ```text
-https://github.com/TheGWOO/GWOO_UnityPackages.git?path=/packages/com.gwoo.tools#v0.1.3
+https://github.com/TheGWOO/GWOO_UnityPackages.git?path=/packages/com.gwoo.tools
 ```
 
 Do not install `com.gwoo.tools` alongside the modular packages in the same Unity project, because it contains the same assemblies.
@@ -38,8 +38,8 @@ Do not install `com.gwoo.tools` alongside the modular packages in the same Unity
 Advanced users can install the modular packages manually from Git. Install shared dependencies first:
 
 ```text
-https://github.com/TheGWOO/GWOO_UnityPackages.git?path=/packages/com.gwoo.editor-ui#v0.1.3
-https://github.com/TheGWOO/GWOO_UnityPackages.git?path=/packages/com.gwoo.editor-particle-preview#v0.1.3
-https://github.com/TheGWOO/GWOO_UnityPackages.git?path=/packages/com.gwoo.material-manager#v0.1.3
-https://github.com/TheGWOO/GWOO_UnityPackages.git?path=/packages/com.gwoo.animator-previewer#v0.1.3
+https://github.com/TheGWOO/GWOO_UnityPackages.git?path=/packages/com.gwoo.editor-ui
+https://github.com/TheGWOO/GWOO_UnityPackages.git?path=/packages/com.gwoo.editor-particle-preview
+https://github.com/TheGWOO/GWOO_UnityPackages.git?path=/packages/com.gwoo.material-manager
+https://github.com/TheGWOO/GWOO_UnityPackages.git?path=/packages/com.gwoo.animator-previewer
 ```
