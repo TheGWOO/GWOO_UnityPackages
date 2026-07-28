@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.1.0
+## 0.1.7
 
-- Initial generated public package export.
+- Preserved the DevStack-style `EditorTools/AnimatorPreviewer` package layout.
 

@@ -1,0 +1,20 @@
+{
+  "name": "com.gwoo.custom-styles",
+  "version": "0.1.7",
+  "displayName": "Custom Styles",
+  "description": "Shared editor styling helpers and UI Toolkit resources for GWOO Unity editor tools.",
+  "unity": "6000.0",
+  "author": {
+    "name": "GWOO"
+  },
+  "keywords": [
+    "unity",
+    "editor",
+    "ui-toolkit",
+    "styles",
+    "tools"
+  ],
+  "dependencies": {
+    "com.gwoo.custom-ui-elements": "0.1.7"
+  }
+}

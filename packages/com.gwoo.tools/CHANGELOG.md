@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.1.0
+## 0.1.7
 
-- Initial generated all-in-one public package export.
+- Composed the all-in-one package from preservation-first atomic package manifests.
 
