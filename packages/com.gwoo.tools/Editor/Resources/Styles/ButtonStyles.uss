@@ -1,0 +1,97 @@
+@import url('Palettes/DefaultDarkPalette.uss');
+
+:root {
+    --custom-colors-button-background: var(--custom-colors-main-lighten-12);
+    --custom-colors-button-border: var(--custom-colors-main-darken-4);
+    --custom-colors-button-background-hover: var(--custom-colors-main-lighten-17);
+    --custom-colors-button-background-pressed: var(--custom-colors-accent-alt-darken-2);
+    --custom-colors-button-text: var(--custom-colors-main-lighten-30);
+}
+
+/* BASE */
+CustomButton {
+    align-self: center;
+    background-color: var(--custom-colors-button-background);
+    border-radius: 5px;
+    min-height: 25px;
+    width: 60%;
+    align-content: flex-start;
+    -unity-text-align: middle-center;
+
+    flex: 0 0 auto;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 5px 3px 1px;
+    padding: 1px 6px;
+    border-color: var(--custom-colors-button-border);
+    border-width: 1px;
+}
+
+CustomButton:hover {
+    background-color: var(--custom-colors-button-background-hover);
+}
+
+CustomButton:disabled {
+    background-color: rgb(49, 51, 56);
+    opacity: 0.5;
+}
+
+CustomButton:active
+{
+    background-color: var(--custom-colors-button-background-pressed);
+    border-color: var(--transparent);
+}
+
+/* PRIMARY COLOR */
+CustomButton.primary-color {
+    background-color: var(--custom-colors-primary-lighten-1);
+}
+
+CustomButton.primary-color:hover {
+    background-color: var(--custom-colors-primary-lighten-2);
+}
+
+CustomButton.primary-color:active {
+    background-color: var(--custom-colors-primary-darken-1);
+}
+
+/* SECONDARY COLOR */
+CustomButton.secondary-color {
+    background-color: var(--custom-colors-secondary-lighten-1);
+}
+
+CustomButton.secondary-color:hover {
+    background-color: var(--custom-colors-secondary-lighten-2);
+}
+
+CustomButton.secondary-color:active {
+    background-color: var(--custom-colors-secondary-darken-1);
+}
+
+/* BIG */
+CustomButton.big {
+    height: 35px;
+    transition-timing-function: ease-out-elastic;
+    transition-duration: 0.5s;
+    transition-property: scale;
+    width: 40%;
+}
+
+CustomButton.big:hover {
+    scale: 1.1;
+}
+
+CustomButton.big:active {
+    scale: 1.05;
+}
+
+CustomButton.big:disabled:hover {
+    scale: 1;
+}
+
+/*TEXT*/
+Button.unity-text-element,
+CustomButton.unity-text-element {
+    color: var(--custom-colors-button-text);
+    font-size: 13px;
+}

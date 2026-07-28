@@ -1,0 +1,108 @@
+:root {
+    --mm-surface-1: rgba(255, 255, 255, 0.035);
+    --mm-surface-2: rgba(255, 255, 255, 0.055);
+    --mm-border-soft: rgba(255, 255, 255, 0.12);
+    --mm-border-subtle: rgba(255, 255, 255, 0.08);
+    --mm-separator: rgba(255, 255, 255, 0.10);
+    --mm-text-muted: rgba(235, 235, 235, 0.74);
+
+    --mm-card-accent: rgb(124, 182, 232);
+    --mm-accent-neutral: rgb(115, 132, 168);
+    --mm-accent-cleanup: rgb(95, 176, 124);
+    --mm-accent-warning: rgb(212, 154, 84);
+    --mm-accent-success: rgb(112, 209, 130);
+
+    --mm-summary-info-bg: rgba(115, 132, 168, 0.12);
+    --mm-summary-success-bg: rgba(112, 209, 130, 0.14);
+    --mm-summary-error-bg: rgba(235, 120, 120, 0.14);
+}
+
+.unity-group-box {
+    margin: 0;
+    padding: 5px 3px;
+}
+
+/* BASE */
+.unity-button {
+    /*align-self: center;*/
+    background-color: var(--custom-colors-button-background);
+    border-radius: 5px;
+    min-height: 25px;
+    -unity-text-align: middle-center;
+
+    flex: 0 0 auto;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 3px 3px 1px;
+    padding: 1px 6px;
+    border-color: var(--custom-colors-button-border);
+    border-width: 1px;
+}
+
+.unity-button:hover:enabled {
+    background-color: var(--custom-colors-button-background-hover);
+}
+
+.unity-button:disabled {
+    background-color: rgb(49, 51, 56);
+    opacity: 0.5;
+}
+.unity-button:hover:disabled {
+    background-color: rgb(49, 51, 56);
+    opacity: 0.5;
+}
+
+.unity-button:active
+{
+    background-color: var(--custom-colors-button-background-pressed);
+    border-color: var(--transparent);
+}
+
+.content-box {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.unity-bg-color {
+    background-color: rgba(255, 255, 255, 0.02);
+}
+
+.mm-search-field .unity-base-text-field__input--placeholder,
+.mm-search-field .unity-base-text-field__input--placeholder .unity-text-element,
+.mm-search-field .unity-base-text-field__input--placeholder TextInput {
+    color: rgba(235, 235, 235, 0.45);
+    -unity-text-outline-color: rgba(0, 0, 0, 0);
+    font-size: 13px;
+}
+
+Toggle:checked:hover .unity-toggle__checkmark {
+    background-image: var(--custom-icon-toggle-checkmark);
+    -unity-background-image-tint-color: var(--custom-colors-toggle-checkmark-hover);
+}
+
+Toggle:checked .unity-toggle__checkmark {
+    background-image: var(--custom-icon-toggle-checkmark);
+    -unity-background-image-tint-color: var(--custom-colors-toggle-checkmark);
+}
+
+Toggle:hover .unity-toggle__checkmark {
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-color: var(--custom-colors-toggle-borders-hover);
+    border-right-color: var(--custom-colors-toggle-borders-hover);
+    border-bottom-color: var(--custom-colors-toggle-borders-hover);
+    border-left-color: var(--custom-colors-toggle-borders-hover);
+}
+
+Toggle .unity-toggle__checkmark {
+    border-left-color: var(--custom-colors-toggle-borders);
+    border-right-color: var(--custom-colors-toggle-borders);
+    border-top-color: var(--custom-colors-toggle-borders);
+    border-bottom-color: var(--custom-colors-toggle-borders);
+    background-image: none;
+    border-radius: 3px;
+    background-color: var(--custom-colors-toggle-background);
+}
+

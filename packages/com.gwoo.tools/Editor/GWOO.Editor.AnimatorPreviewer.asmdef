@@ -1,0 +1,21 @@
+{
+  "name": "GWOO.Editor.AnimatorPreviewer",
+  "rootNamespace": "GWOO.Editor.Tools",
+  "references": [
+    "GWOO.CustomUIElements",
+    "GWOO.CustomStyles.Editor",
+    "GWOO.EditorParticleSystemDriver"
+  ],
+  "optionalUnityReferences": [],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

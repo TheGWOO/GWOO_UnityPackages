@@ -1,0 +1,45 @@
+@import url('Palettes/DefaultDarkPalette.uss');
+
+:root {
+    --custom-icon-toggle-checkmark: resource('Images/toggle_checkmark');
+    --custom-colors-toggle-checkmark: var(--custom-colors-accent-base);
+    --custom-colors-toggle-checkmark-hover: var(--custom-colors-accent-lighten-1);
+
+    --custom-colors-toggle-borders: var(--custom-colors-main-darken-5);
+    --custom-colors-toggle-borders-hover: var(--custom-colors-accent-half);
+
+    --custom-colors-toggle-background: var(--custom-colors-main-darken-10);
+}
+
+CustomToggle > .unity-toggle__input > .unity-toggle__checkmark {
+    border-left-color: var(--custom-colors-toggle-borders);
+    border-right-color: var(--custom-colors-toggle-borders);
+    border-top-color: var(--custom-colors-toggle-borders);
+    border-bottom-color: var(--custom-colors-toggle-borders);
+    background-color: var(--custom-colors-toggle-background);
+    border-radius: 3px;
+    border-width: 0.5px;
+    max-height: 15px;
+    max-width: 15px;
+    -unity-background-scale-mode: scale-to-fit;
+    background-image: none;
+}
+
+CustomToggle:hover > .unity-toggle__input > .unity-toggle__checkmark {
+    border-left-color: var(--custom-colors-toggle-borders-hover);
+    border-right-color: var(--custom-colors-toggle-borders-hover);
+    border-top-color: var(--custom-colors-toggle-borders-hover);
+    border-bottom-color: var(--custom-colors-toggle-borders-hover);
+}
+
+CustomToggle:checked > .unity-toggle__input > .unity-toggle__checkmark {
+    background-image: var(--custom-icon-toggle-checkmark);
+    -unity-background-image-tint-color: var(--custom-colors-toggle-checkmark);
+    border-width: 0px;
+}
+
+CustomToggle:checked:hover > .unity-toggle__input > .unity-toggle__checkmark {
+    border-width: 0.5px;
+    background-image: var(--custom-icon-toggle-checkmark);
+    -unity-background-image-tint-color: var(--custom-colors-toggle-checkmark-hover);
+}

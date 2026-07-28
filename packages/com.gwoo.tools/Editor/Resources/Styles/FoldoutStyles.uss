@@ -1,0 +1,95 @@
+@import url('Palettes/DefaultDarkPalette.uss');
+
+:root {
+--custom-colors-foldout-checkmark: var(--custom-colors-main-lighten-25);
+--custom-colors-foldout-header: var(--custom-colors-main-darken-5);
+--custom-colors-foldout-header-hover: var(--custom-colors-main-darken-4);
+--custom-colors-foldout-header-focus: var(--custom-colors-accent-lighten-1);
+--custom-colors-foldout-header_darker: var(--custom-colors-main-darken-7);
+--custom-colors-foldout-header_darkest: var(--custom-colors-main-darken-10);
+    
+--custom-lateral-foldout-container-hidden: var(--custom-colors-transparent-base);
+--custom-lateral-foldout-container: var(--custom-colors-main-base);
+--custom-lateral-foldout-toggle: var(--custom-colors-main-darken-5);
+--custom-lateral-foldout-toggle-icon: resource('Images/arrow_right');
+--custom-lateral-foldout-toggle-hover: var(--custom-colors-accent-base);
+}
+
+CustomFoldout .unity-foldout__toggle > .unity-toggle__input > .unity-toggle__checkmark,
+ToggledFoldout .unity-foldout__toggle > .unity-toggle__input > .unity-toggle__checkmark {
+    -unity-background-image-tint-color: var(--custom-colors-foldout-checkmark);
+}
+
+ToggledFoldout .unity-foldout__input,
+CustomFoldout .unity-foldout__input {
+    background-color: var(--custom-colors-foldout-header);
+    height: 20px;
+}
+
+CustomFoldout .unity-foldout__input:hover,
+ToggledFoldout .unity-foldout__input:hover,
+CustomFoldout :active .unity-foldout__input,
+ToggledFoldout :active .unity-foldout__input {
+    background-color: var(--custom-colors-foldout-header-hover);
+}
+
+.custom-lateral-foldout__container {
+    width: 0;
+    flex-direction: row;
+    min-width: 20px;
+    max-width: 400px;
+    padding: 10px 5px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: var(--custom-lateral-foldout-container-hidden);
+    /*border-top-width: 2px;*/
+    /*border-bottom-width: 2px;*/
+    /*border-right-width: 2px;*/
+    /*border-color: var(--custom-colors-accent-half);*/
+    
+    transition-property: background-color, width;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+.custom-lateral-foldout__container.checked {
+    width: 20%;
+    background-color: var(--custom-lateral-foldout-container);
+}
+.custom-lateral-foldout__container:hover {
+    background-color: var(--custom-lateral-foldout-container);
+    transition-duration: 0.2s, 0.5s;
+}
+
+.custom-lateral-foldout__content {
+    overflow: hidden;
+    flex-grow: 1;
+    min-width: 0;
+    margin-bottom: 10px;
+}
+
+.custom-lateral-foldout__toggle {
+    background-image: var(--custom-lateral-foldout-toggle-icon);
+    width: 15px;
+    background-size: 15px;
+    flex-shrink: 0;
+    -unity-background-image-tint-color: var(--custom-lateral-foldout-toggle);
+
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+.custom-lateral-foldout__toggle.checked {
+    scale: -1 1;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.custom-lateral-foldout__toggle:hover {
+    -unity-background-image-tint-color: var(--custom-lateral-foldout-toggle-hover);
+    width: 30px;
+    background-size: 20px;
+}
+
+/* DARKER */
+.unity-foldout__input.darker {
+    background-color: var(--custom-colors-foldout-header_darker);
+}

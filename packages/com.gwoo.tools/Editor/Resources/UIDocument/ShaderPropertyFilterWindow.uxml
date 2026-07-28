@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:mm="GWOO.Editor.Tools" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:VisualElement name="filter-popup-root" class="mm-column mm-grow mm-popup-shell">
+        <mm:PopupHeaderBlock name="popup-header" />
+        <mm:SearchBarBlock name="popup-search-bar" />
+        <ui:Label name="selection-summary-label" class="mm-popup-summary" />
+        <ui:ScrollView name="properties-scroll" class="mm-popup-scroll mm-grow" />
+        <ui:VisualElement name="footer-buttons-row" class="mm-row mm-popup-footer">
+            <ui:Button name="reset-button" text="Reset" class="mm-flex" />
+            <ui:Button name="apply-button" text="Apply filter" class="mm-cta mm-flex" />
+            <ui:Button name="cancel-button" text="Cancel" class="mm-flex" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

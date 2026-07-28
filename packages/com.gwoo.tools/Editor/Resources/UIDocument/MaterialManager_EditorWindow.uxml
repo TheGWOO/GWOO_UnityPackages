@@ -1,0 +1,32 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:gw="GWOO.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:VisualElement name="mm-root" class="mm-root">
+        <ui:VisualElement name="top-toolbar-host" class="mm-top-toolbar-host"/>
+        <ui:VisualElement name="main-panels" class="mm-main-panels mm-grow">
+            <ui:VisualElement name="left-panel" class="mm-left-panel mm-grow">
+                <ui:VisualElement name="query-block" class="mm-query-panel"/>
+                <gw:Card name="filter-card" title="Filter" class="mm-card mm-card-filter">
+                    <ui:VisualElement name="filter-panel" class="mm-section mm-filter-panel content-box">
+                        <ui:VisualElement name="filter-row-primary" class="mm-row">
+                            <ui:VisualElement name="materials-search-bar" class="mm-flex"/>
+                            <gw:CustomToggle name="show-variants-toggle" value="true" class="mm-margin-left-2"/>
+                            <ui:Label name="show-variants-label" text="Show variants" class="mm-margin-left-2"/>
+                        </ui:VisualElement>
+                        <ui:VisualElement name="filter-row-secondary" class="mm-row mm-row-start">
+                            <gw:CustomButton name="property-filter-button" text="Filter by property override" class="mm-flex mm-fill-main"/>
+                            <gw:CustomButton name="clear-filter-button" text="Clear filter" class="mm-no-shrink" style="display: none;"/>
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </gw:Card>
+                <gw:Card name="results-card" title="Results" class="mm-card mm-card-results mm-grow">
+                    <ui:VisualElement name="results-block" class="mm-grow"/>
+                </gw:Card>
+            </ui:VisualElement>
+            <ui:ScrollView name="actions-scroll" mode="Vertical" class="mm-right-panel-scroll">
+                <gw:Card name="actions-card" title="Actions" class="mm-card mm-card-actions">
+                    <ui:VisualElement name="actions-block"/>
+                </gw:Card>
+            </ui:ScrollView>
+        </ui:VisualElement>
+        <ui:VisualElement name="status-block" class="mm-status-footer"/>
+    </ui:VisualElement>
+</ui:UXML>

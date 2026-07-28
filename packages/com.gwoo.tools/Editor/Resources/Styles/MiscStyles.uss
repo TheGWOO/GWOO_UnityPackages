@@ -1,0 +1,21 @@
+@import url('Palettes/DefaultDarkPalette.uss');
+
+:root {
+    --custom-colors-separator: var(--custom-colors-main-darken-7);
+}
+
+Separator {
+    height: 1px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    background-color: var(--custom-colors-separator);
+}
+
+Separator.big {
+    height: 3px;
+}
+
+Separator.spaced {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,108 @@
+.root *,
+:root {
+    /* Main Colors */
+    --custom-colors-main-lighten-31: rgb(255, 255, 255);
+    --custom-colors-main-lighten-30: rgb(238, 238, 238);
+    --custom-colors-main-lighten-29: rgb(234, 234, 234);
+    --custom-colors-main-lighten-28: rgb(227, 227, 228);
+    --custom-colors-main-lighten-27: rgb(221, 221, 221);
+    --custom-colors-main-lighten-26: rgb(214, 214, 215);
+    --custom-colors-main-lighten-25: rgb(208, 208, 208);
+    --custom-colors-main-lighten-24: rgb(201, 201, 202);
+    --custom-colors-main-lighten-23: rgb(194, 195, 196);
+    --custom-colors-main-lighten-22: rgb(188, 188, 189);
+    --custom-colors-main-lighten-21: rgb(181, 182, 183);
+    --custom-colors-main-lighten-20: rgb(175, 175, 177);
+    --custom-colors-main-lighten-19: rgb(168, 169, 170);
+    --custom-colors-main-lighten-18: rgb(162, 162, 164);
+    --custom-colors-main-lighten-17: rgb(155, 156, 157);
+    --custom-colors-main-lighten-16: rgb(148, 149, 151);
+    --custom-colors-main-lighten-15: rgb(142, 143, 145);
+    --custom-colors-main-lighten-14: rgb(135, 136, 138);
+    --custom-colors-main-lighten-13: rgb(129, 130, 132);
+    --custom-colors-main-lighten-12: rgb(122, 123, 126);
+    --custom-colors-main-lighten-11: rgb(115, 117, 119);
+    --custom-colors-main-lighten-10: rgb(109, 110, 113);
+    --custom-colors-main-lighten-9: rgb(102, 104, 106);
+    --custom-colors-main-lighten-8: rgb(96, 97, 100);
+    --custom-colors-main-lighten-7: rgb(89, 91, 94);
+    --custom-colors-main-lighten-6: rgb(83, 84, 87);
+    --custom-colors-main-lighten-5: rgb(76, 78, 81);
+    --custom-colors-main-lighten-4: rgb(69, 71, 75);
+    --custom-colors-main-lighten-3: rgb(63, 65, 68);
+    --custom-colors-main-lighten-2: rgb(56, 58, 62);
+    --custom-colors-main-lighten-1: rgb(50, 52, 55);
+    --custom-colors-main-base: rgb(43, 45, 49);
+    --custom-colors-main-darken-1:  rgb(41, 43, 47);
+    --custom-colors-main-darken-2:  rgb(39, 41, 45);
+    --custom-colors-main-darken-3:  rgb(37, 39, 43);
+    --custom-colors-main-darken-4:  rgb(36, 38, 41);
+    --custom-colors-main-darken-5:  rgb(34, 36, 39);
+    --custom-colors-main-darken-6:  rgb(32, 34, 37);
+    --custom-colors-main-darken-7:  rgb(30, 32, 35);
+    --custom-colors-main-darken-8:  rgb(28, 30, 34);
+    --custom-colors-main-darken-9:  rgb(26, 28, 32);
+    --custom-colors-main-darken-10: rgb(24, 26, 30);
+    --custom-colors-main-darken-11: rgb(22, 24, 28);
+    --custom-colors-main-darken-12: rgb(21, 23, 26);
+    --custom-colors-main-darken-13: rgb(19, 21, 24);
+    --custom-colors-main-darken-14: rgb(17, 19, 22);
+    --custom-colors-main-darken-15: rgb(15, 17, 20);
+    
+    /* RGBA Colors */
+    --custom-colors-transparent-lighten-1: rgba(255, 255, 255, 0.0627451);
+    --custom-colors-transparent-base: rgba(43, 45, 49, 0.25);
+    --custom-colors-main-base-half: rgba(43, 45, 49, 0.5);
+    --custom-colors-transparent-darken-1: rgba(40, 40, 40, 0.3019608);
+    --custom-colors-transparent-darken-2: rgba(0, 0, 0, 0.05098039);
+    --custom-colors-transparent-darken-3: rgba(0, 0, 0, 0.1019608);
+
+    /* Accent Colors */
+    --custom-colors-accent-lighten-3: rgb(180, 195, 255);
+    --custom-colors-accent-lighten-2: rgb(140, 160, 240);
+    --custom-colors-accent-lighten-1: rgb(100, 130, 220);
+    --custom-colors-accent-base: rgb(71, 82, 196);
+    --custom-colors-accent-darken-1: rgb(60, 69, 165);
+    --custom-colors-accent-darken-2: rgb(50, 60, 140);
+    --custom-colors-accent-darken-3: rgb(40, 50, 110);
+    --custom-colors-accent-darken-4: rgb(30, 40, 90);
+    --custom-colors-accent-darken-5: rgb(20, 30, 70);
+    --custom-colors-accent-darken-6: rgb(10, 20, 50);
+
+    --custom-colors-accent-half: rgba(60, 69, 165, 0.5);
+    
+    --custom-colors-accent-alt-lighten-1: rgb(58, 121, 187);
+    --custom-colors-accent-alt-base: rgb(0, 106, 166);
+    --custom-colors-accent-alt-darken-1: rgb(44, 93, 135);
+    --custom-colors-accent-alt-darken-2: rgb(70, 96, 124);
+    --custom-colors-accent-alt-darken-3: rgb(79, 101, 127);
+
+    /* Primary Colors */
+    --custom-colors-primary-lighten-5: rgb(160, 240, 180);
+    --custom-colors-primary-lighten-4: rgb(130, 220, 140);
+    --custom-colors-primary-lighten-3: rgb(100, 200, 120);
+    --custom-colors-primary-lighten-2: rgb(59, 157, 83);
+    --custom-colors-primary-lighten-1: rgb(63, 127, 78);
+    --custom-colors-primary-darken-1: rgb(50, 110, 65);
+    --custom-colors-primary-darken-2: rgb(45, 93, 60);
+    --custom-colors-primary-darken-3: rgb(35, 80, 50);
+    --custom-colors-primary-darken-4: rgb(25, 65, 40);
+    --custom-colors-primary-darken-5: rgb(20, 55, 35);
+
+    /* Secondary Colors */
+    --custom-colors-secondary-lighten-5: rgb(250, 200, 200);
+    --custom-colors-secondary-lighten-4: rgb(220, 150, 150);
+    --custom-colors-secondary-lighten-3: rgb(180, 120, 120);
+    --custom-colors-secondary-lighten-2: rgb(172, 49, 50);
+    --custom-colors-secondary-lighten-1: rgb(139, 58, 60);
+    --custom-colors-secondary-darken-1: rgb(124, 47, 48);
+    --custom-colors-secondary-darken-2: rgb(110, 40, 40);
+    --custom-colors-secondary-darken-3: rgb(90, 35, 35);
+    --custom-colors-secondary-darken-4: rgb(70, 30, 30);
+    --custom-colors-secondary-darken-5: rgb(50, 25, 25);
+    
+    /* Special Colors */
+    --custom-colors-link: rgb(255, 0, 255);
+    --custom-colors-warning: rgb(244, 188, 2);
+    --custom-colors-error: rgb(211, 34, 34);
+}

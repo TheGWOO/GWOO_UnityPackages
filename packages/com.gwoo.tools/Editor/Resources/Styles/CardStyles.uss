@@ -1,0 +1,42 @@
+.card {
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 8px 10px 10px 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.card-header {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 8px;
+    flex-wrap: wrap;
+}
+
+.card-accent {
+    background-color: gray;
+}
+
+.card-accent.strip {
+    width: 6px;
+    height: 18px;
+    margin-right: 8px;
+    border-radius: 3px;
+}
+
+.card-accent.dot {
+    width: 8px;
+    height: 8px;
+    margin-right: 8px;
+    border-radius: 4px;
+}
+
+.card-title {
+    -unity-font-style: bold;
+    flex-grow: 1;
+    font-size: 12px;
+}
+
+.card.group .card-title {
+    opacity: 0.95;
+}

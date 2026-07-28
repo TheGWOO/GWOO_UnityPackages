@@ -1,0 +1,15 @@
+{
+  "name": "GWOO.CustomUIElements",
+  "rootNamespace": "GWOO.UIElements",
+  "references": [],
+  "optionalUnityReferences": [],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

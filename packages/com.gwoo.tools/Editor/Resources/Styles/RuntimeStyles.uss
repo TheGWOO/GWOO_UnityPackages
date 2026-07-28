@@ -1,0 +1,50 @@
+@import url('Palettes/DefaultDarkPalette.uss');
+
+:root {
+    --custom-popup-window-container: var(--custom-colors-main-base);
+    --custom-colors-foldout-checkmark: var(--custom-colors-main-lighten-5);
+}
+
+.custom-color-field__container {
+    flex-grow: 1;
+    flex-direction: column;
+    height: 20px;
+    border-width: 1px;
+    border-radius: 2px;
+    border-color: black;
+}
+.custom-color-field__color-preview {
+    flex-grow: 1;
+    height: 75%;
+}
+.custom-color-field__alpha-container {
+    flex-grow: 1;
+    background-color: black;
+}
+
+.custom-cursor__rounded-selector {
+    width: 10px;
+    height: 10px;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.custom-popup-window {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.custom-popup-window__container {
+    position: absolute;
+    background-color: var(--custom-popup-window-container);
+    border-radius: 10px;
+    padding: 20px;
+    border-width: 2px;
+    border-color: var(--custom-colors-accent-half);
+}

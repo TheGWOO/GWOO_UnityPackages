@@ -1,6 +1,6 @@
 {
   "name": "com.gwoo.editor-particle-preview",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "displayName": "Editor Particle Preview",
   "description": "Deterministic editor-only ParticleSystem preview driver for animation and FX preview tools.",
   "unity": "6000.0",
