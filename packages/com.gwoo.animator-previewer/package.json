@@ -1,6 +1,6 @@
 {
   "name": "com.gwoo.animator-previewer",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "displayName": "Animator Previewer",
   "description": "Unity editor tooling for deterministic clip/controller animation preview, event editing, and particle-aware timeline scrubbing.",
   "unity": "6000.0",
@@ -16,8 +16,8 @@
     "tools"
   ],
   "dependencies": {
-    "com.gwoo.custom-ui-elements": "0.1.7",
-    "com.gwoo.custom-styles": "0.1.7",
-    "com.gwoo.editor-particle-system-driver": "0.1.7"
+    "com.gwoo.custom-ui-elements": "0.1.8",
+    "com.gwoo.custom-styles": "0.1.8",
+    "com.gwoo.editor-particle-system-driver": "0.1.8"
   }
 }
