@@ -1,4 +1,4 @@
-# UI Toolkit
+# GWOO Custom UI
 
 Shared UI Toolkit controls, editor styling helpers, and resources for GWOO Unity tools.
 
