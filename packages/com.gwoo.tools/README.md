@@ -16,7 +16,7 @@ This package is intended for Git URL installs when you want all public tools in 
 Use Unity Package Manager > Add package from git URL, then enter:
 
 ```text
-https://github.com/TheGWOO/GWOO_UnityPackages.git?path=/packages/com.gwoo.tools#v0.1.1
+https://github.com/TheGWOO/GWOO_UnityPackages.git?path=/packages/com.gwoo.tools#v0.1.2
 ```
 
 Do not install this package alongside the modular `com.gwoo.*` packages in the same Unity project, because it contains the same assemblies.

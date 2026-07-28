@@ -1,7 +1,9 @@
 {
-  "name": "GWOO.EditorParticleSystemDriver",
-  "rootNamespace": "GWOO.Editor.ParticlePreview",
-  "references": [],
+  "name": "GWOO.Tools.Editor",
+  "rootNamespace": "GWOO.Editor.Tools",
+  "references": [
+    "GWOO.CustomUIElements"
+  ],
   "optionalUnityReferences": [],
   "includePlatforms": [
     "Editor"
