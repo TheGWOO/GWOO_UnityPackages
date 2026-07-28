@@ -1,6 +1,6 @@
 {
   "name": "com.gwoo.material-manager",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "displayName": "Material Manager",
   "description": "Unity editor tooling for shader material search, variant cleanup, shader property rebinding, and material migration.",
   "unity": "6000.0",
@@ -16,6 +16,6 @@
     "tools"
   ],
   "dependencies": {
-    "com.gwoo.editor-ui": "0.1.4"
+    "com.gwoo.editor-ui": "0.1.5"
   }
 }

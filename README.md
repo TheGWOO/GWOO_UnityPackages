@@ -1,4 +1,4 @@
-# Unity Editor Tools
+# GWOO DevStack Unity Packages
 
 Public Unity Package Manager exports for editor tooling packages.
 
@@ -8,7 +8,7 @@ Public Unity Package Manager exports for editor tooling packages.
 - `com.gwoo.editor-particle-preview`: deterministic edit-mode ParticleSystem preview driver.
 - `com.gwoo.material-manager`: shader material search, cleanup, and migration tooling.
 - `com.gwoo.animator-previewer`: deterministic animation clip/controller preview and animation event editing.
-- `com.gwoo.tools`: all-in-one Git-install package containing the public tools and shared support code.
+- `com.gwoo.tools`: all-in-one Git-install package containing the public DevStack tools and shared support code.
 
 ## Install
 

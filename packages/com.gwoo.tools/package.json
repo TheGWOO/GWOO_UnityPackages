@@ -1,8 +1,8 @@
 {
   "name": "com.gwoo.tools",
-  "version": "0.1.4",
-  "displayName": "Unity Editor Tools",
-  "description": "All-in-one Unity editor tools package containing Material Manager, Animator Previewer, and their shared editor support code.",
+  "version": "0.1.5",
+  "displayName": "GWOO DevStack",
+  "description": "All-in-one Unity editor tooling bundle containing Material Manager, Animator Previewer, and their shared editor support code.",
   "unity": "6000.0",
   "author": {
     "name": "GWOO"

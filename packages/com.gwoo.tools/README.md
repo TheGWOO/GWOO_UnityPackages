@@ -1,6 +1,6 @@
-# Unity Editor Tools
+# GWOO DevStack
 
-All-in-one Unity editor tools package containing Material Manager, Animator Previewer, and their shared editor support code.
+All-in-one Unity editor tooling bundle containing Material Manager, Animator Previewer, and their shared editor support code.
 
 This package is intended for Git URL installs when you want all public tools in one package without configuring a scoped registry. If you use OpenUPM, prefer the modular packages instead.
 
