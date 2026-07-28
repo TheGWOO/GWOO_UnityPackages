@@ -4,8 +4,7 @@ Public Unity Package Manager exports for editor tooling packages.
 
 ## Packages
 
-- `com.gwoo.custom-ui-elements`: shared UI Toolkit controls.
-- `com.gwoo.custom-styles`: shared editor styling helpers and resources.
+- `com.gwoo.editor-ui`: shared UI Toolkit controls, editor styling helpers, and resources.
 - `com.gwoo.editor-particle-system-driver`: deterministic edit-mode ParticleSystem preview driver.
 - `com.gwoo.material-manager`: shader material search, cleanup, and migration tooling.
 - `com.gwoo.animator-previewer`: deterministic animation clip/controller preview and animation event editing.
@@ -39,8 +38,7 @@ Do not install `com.gwoo.tools` alongside the modular packages in the same Unity
 Advanced users can install the modular packages manually from Git. Install shared dependencies first:
 
 ```text
-https://github.com/TheGWOO/GWOO_UnityPackages.git?path=/packages/com.gwoo.custom-ui-elements
-https://github.com/TheGWOO/GWOO_UnityPackages.git?path=/packages/com.gwoo.custom-styles
+https://github.com/TheGWOO/GWOO_UnityPackages.git?path=/packages/com.gwoo.editor-ui
 https://github.com/TheGWOO/GWOO_UnityPackages.git?path=/packages/com.gwoo.editor-particle-system-driver
 https://github.com/TheGWOO/GWOO_UnityPackages.git?path=/packages/com.gwoo.material-manager
 https://github.com/TheGWOO/GWOO_UnityPackages.git?path=/packages/com.gwoo.animator-previewer

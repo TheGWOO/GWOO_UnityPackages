@@ -1,6 +1,6 @@
 {
   "name": "com.gwoo.editor-particle-system-driver",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "displayName": "Editor Particle System Driver",
   "description": "Deterministic editor-only ParticleSystem preview driver for animation and FX preview tools.",
   "unity": "6000.0",
