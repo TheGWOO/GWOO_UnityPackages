@@ -1,6 +1,6 @@
 # GWOO DevStack
 
-All-in-one Unity editor tooling bundle containing Material Manager, Animator Previewer, and their shared editor support code.
+All-in-one Unity editor tooling bundle containing Material Manager, Animator Previewer, and their shared DevStack support code.
 
 This package is intended for Git URL installs when you want all public tools in one package without configuring a scoped registry. If you use OpenUPM, prefer the modular packages instead.
 
@@ -8,8 +8,8 @@ This package is intended for Git URL installs when you want all public tools in 
 
 - Material Manager: shader material search, variant cleanup, shader property rebinding, and material migration.
 - Animator Previewer: deterministic clip/controller preview, animation event editing, and particle-aware timeline scrubbing.
-- Editor UI: shared UI Toolkit controls and editor styling helpers.
-- Editor Particle Preview: deterministic edit-mode ParticleSystem preview support for editor tooling.
+- Custom UI Elements and Custom Styles: shared UI Toolkit controls and editor styling helpers.
+- Editor Particle System Driver: deterministic edit-mode ParticleSystem preview support for editor tooling.
 
 ## Install From Git
 
