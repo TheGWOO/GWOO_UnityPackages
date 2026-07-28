@@ -1,0 +1,134 @@
+.root *,
+:root {
+    --custom-colors-button-background: var(--custom-colors-main-lighten-4);
+    --custom-colors-button-background-hover: var(--custom-colors-accent-base);
+    --custom-colors-button-background-pressed: var(--custom-colors-accent-darken-2);
+    --custom-colors-button-text: var(--custom-colors-main-lighten-30);
+}
+
+/* BACKGROUND COLOR */
+
+.unity-button {
+    background-color: var(--custom-colors-button-background);
+}
+.unity-button:hover {
+    background-color: var(--custom-colors-button-background-hover);
+}
+.unity-button:active {
+    background-color: var(--custom-colors-button-background-pressed);
+}
+
+.unity-base-slider__dragger {
+    background-color: var(--custom-colors-main-lighten-10);
+}
+
+.unity-base-slider--horizontal .unity-base-slider__tracker,
+.unity-base-field:hover:enabled > .unity-base-popup-field__input,
+.unity-color-field__eyedropper:hover:enabled,
+.unity-object-field__selector:hover:enabled,
+.unity-color-field__eyedropper:hover:enabled,
+.unity-object-field__selector:hover:enabled {
+    background-color: var(--custom-colors-main-lighten-5);
+    border-width: 0;
+}
+
+.unity-base-slider--horizontal:focus .unity-base-slider__tracker,
+.unity-base-slider--horizontal .unity-base-slider__tracker:hover:enabled {
+    background-color: var(--custom-colors-main-lighten-10);
+}
+
+HelpBox,
+Toolbar,
+.unity-base-slider--vertical .unity-base-slider__dragger,
+.unity-scroller--vertical .unity-base-slider__dragger,
+.unity-scroller > .unity-scroller__slider > .unity-base-slider__input:focus .unity-base-slider__dragger,
+ScrollerSlider * .unity-base-slider__dragger,
+.unity-curve-field__input,
+.unity-base-popup-field__input {
+    background-color: var(--custom-colors-main-lighten-3);
+    border-width: 0;
+}
+
+.unity-scroller > .unity-scroller__slider > .unity-base-slider__input:focus .unity-base-slider__dragger:hover:enabled,
+.unity-scroller--vertical .unity-base-slider__dragger:hover:enabled {
+    background-color: var(--custom-colors-main-lighten-5);
+}
+
+.unity-color-field__eyedropper,
+.unity-object-field__selector {
+    background-color: var(--custom-colors-main-lighten-1);
+}
+
+.unity-toggle__checkmark.unity-foldout__checkmark {
+    background-color: transparent;
+}
+
+.unity-text-field__input,
+.unity-integer-field__input,
+.unity-float-field__input,
+.unity-integer-field__input,
+.unity-object-field__object {
+    background-color: var(--custom-colors-main-darken-5);
+}
+
+.unity-base-slider__dragger-border {
+    background-color: var(--custom-colors-accent-half);
+}
+
+/* BORDER COLOR */
+.unity-scroller--vertical .unity-base-slider__dragger,
+.unity-scroller--horizontal .unity-base-slider__dragger {
+    border-color: var(--custom-colors-main-base);
+}
+
+Slider * .unity-base-slider__dragger{
+    border-color: var(--custom-colors-main-lighten-10);
+}
+
+.unity-base-text-field__input,
+.unity-base-field__input {
+    border-color: var(--custom-colors-main-darken-10);
+}
+
+.unity-base-field:hover:enabled > .unity-base-field__input {
+    border-color: var(--custom-colors-accent-half);
+}
+
+.unity-base-field:focus:hover:enabled > .unity-base-field__input,
+.unity-base-field:focus > .unity-base-field__input {
+    border-color: var(--custom-colors-accent-base);
+}
+
+/* COLOR */
+.unity-foldout__toggle > .unity-toggle__input:focus:enabled > .unity-label {
+    color: var(--custom-colors-foldout-header-focus);
+}
+.unity-object-field:focus > .unity-base-field__input > .unity-object-field-display > .unity-text-element,
+.unity-base-field:focus:enabled > .unity-base-field__label {
+    color: var(--custom-colors-foldout-header-focus);
+}
+
+/* TEXTS */
+.unity-base-text-field__input,
+.unity-text-element {
+    color: var(--custom-colors-main-lighten-22);
+    font-size: 12px;
+}
+
+.unity-label {
+    color: var(--custom-colors-main-lighten-18);
+    font-size: 13px;
+}
+
+.unity-text-element.unity-label.primary-color,
+.primary-color {
+    color: var(--custom-colors-primary-lighten-1);
+}
+.unity-text-element.unity-label.secondary-color,
+.secondary-color {
+    color: var(--custom-colors-secondary-lighten-1);
+}
+.unity-text-element.unity-label.accent-color,
+.accent-color {
+    color: var(--custom-colors-accent-base);
+}

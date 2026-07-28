@@ -1,0 +1,21 @@
+{
+  "name": "GWOO.MaterialManager.Editor.Tests",
+  "rootNamespace": "GWOO.MaterialManager.Tests.Editor",
+  "references": [
+    "GWOO.Editor.MaterialManager"
+  ],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

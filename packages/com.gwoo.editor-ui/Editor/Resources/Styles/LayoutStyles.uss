@@ -1,0 +1,23 @@
+.align-center {
+    align-self: center;
+}
+
+.align-start {
+    align-self: flex-start;
+}
+
+.align-end {
+    align-self: flex-end;
+}
+
+.custom.align-center {
+    align-self: center;
+}
+
+.custom.align-start {
+    align-self: flex-start;
+}
+
+.custom.align-end {
+    align-self: flex-end;
+}
