@@ -1,0 +1,17 @@
+{
+  "name": "com.gwoo.ui-toolkit",
+  "version": "0.1.10",
+  "displayName": "UI Toolkit",
+  "description": "Shared UI Toolkit controls, editor styling helpers, and resources for GWOO Unity tools.",
+  "unity": "6000.0",
+  "author": {
+    "name": "GWOO"
+  },
+  "keywords": [
+    "unity",
+    "ui-toolkit",
+    "styles",
+    "tools"
+  ],
+  "dependencies": {}
+}
