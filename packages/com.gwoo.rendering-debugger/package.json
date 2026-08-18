@@ -1,0 +1,21 @@
+{
+  "name": "com.gwoo.rendering-debugger",
+  "version": "0.1.12",
+  "displayName": "Rendering Debugger Extensions",
+  "description": "Unity Rendering Debugger additions for inspecting texture texel density against displayed screen size.",
+  "unity": "6000.0",
+  "author": {
+    "name": "GWOO"
+  },
+  "keywords": [
+    "unity",
+    "rendering",
+    "debugger",
+    "texel-density",
+    "textures",
+    "tools"
+  ],
+  "dependencies": {
+    "com.unity.render-pipelines.core": "17.0.0"
+  }
+}

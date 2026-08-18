@@ -1,6 +1,6 @@
 {
   "name": "com.gwoo.custom-ui",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "displayName": "GWOO Custom UI",
   "description": "Shared UI Toolkit controls, editor styling helpers, and resources for GWOO Unity tools.",
   "unity": "6000.0",

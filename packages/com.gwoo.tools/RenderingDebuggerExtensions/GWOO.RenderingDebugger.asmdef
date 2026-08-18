@@ -1,0 +1,19 @@
+{
+  "name": "GWOO.RenderingDebugger",
+  "rootNamespace": "GWOO.Development.RenderingDebugger",
+  "references": [
+    "Unity.RenderPipelines.Core.Runtime"
+  ],
+  "optionalUnityReferences": [],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [
+    "DEVELOPMENT_BUILD || UNITY_EDITOR"
+  ],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

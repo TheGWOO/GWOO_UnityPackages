@@ -8,6 +8,7 @@ Public Unity Package Manager exports for editor tooling packages.
 - `com.gwoo.editor-particles`: deterministic edit-mode ParticleSystem preview driver.
 - `com.gwoo.material-manager`: shader material search, cleanup, and migration tooling.
 - `com.gwoo.animator-previewer`: deterministic animation clip/controller preview and animation event editing.
+- `com.gwoo.rendering-debugger`: Rendering Debugger extensions for texel density validation.
 - `com.gwoo.tools`: all-in-one Git-install package containing the public DevStack tools and shared support code.
 
 ## Install
@@ -19,6 +20,7 @@ OpenUPM gives normal Unity package dependency resolution. After the packages are
 ```bash
 openupm add com.gwoo.material-manager
 openupm add com.gwoo.animator-previewer
+openupm add com.gwoo.rendering-debugger
 ```
 
 Support packages are installed automatically as dependencies when using a scoped registry.
@@ -42,4 +44,5 @@ https://github.com/TheGWOO/GWOO_UnityPackages.git?path=/packages/com.gwoo.custom
 https://github.com/TheGWOO/GWOO_UnityPackages.git?path=/packages/com.gwoo.editor-particles
 https://github.com/TheGWOO/GWOO_UnityPackages.git?path=/packages/com.gwoo.material-manager
 https://github.com/TheGWOO/GWOO_UnityPackages.git?path=/packages/com.gwoo.animator-previewer
+https://github.com/TheGWOO/GWOO_UnityPackages.git?path=/packages/com.gwoo.rendering-debugger
 ```
